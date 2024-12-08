@@ -1,7 +1,11 @@
-export default function Home() {
-  return (
-    <main>
-      메인페이지
-    </main>
-  )
+'use client';
+
+import {useRouter} from "next/navigation";
+import LoginMain from "@/app/components/LoginMain/LoginMain";
+
+export default function Login() {
+  const router = useRouter();
+
+  router.replace('/i/flow/login')
+  return <LoginMain />;
 }
