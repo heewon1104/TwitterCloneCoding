@@ -1,4 +1,4 @@
-import LoginMain from "../_components/LoginMain/LoginMain"
+import LoginMain from "./_components/LoginMain/LoginMain"
 
 export default function Home() {
   return (
