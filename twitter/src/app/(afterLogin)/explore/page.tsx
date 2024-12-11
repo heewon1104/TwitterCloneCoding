@@ -1,7 +1,8 @@
+
 export default function Home() {
   return (
     <main>
-      메인페이지
+      검색페이지
     </main>
   )
 }

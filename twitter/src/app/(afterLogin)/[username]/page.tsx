@@ -1,7 +1,8 @@
-export default function Home() {
+
+export default function Profile() {
   return (
     <main>
-      메인페이지
+      프로필페이지
     </main>
   )
 }
